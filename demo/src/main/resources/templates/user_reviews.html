@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Reviews</title>
+</head>
+<body>
+    <h1>User Reviews</h1>
+    <ul>
+        {{#reviews}}
+            <li>Movie: {{movie.title}}, Rating: {{rating}}, Comment: {{comment}}</li>
+        {{/reviews}}
+    </ul>
+</body>
+</html>

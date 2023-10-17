@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Details</title>
+</head>
+<body>
+    <h1>{{movie.title}}</h1>
+    <p>Release Year: {{movie.release_year}}</p>
+    <p>Director: {{movie.director}}</p>
+    
+    <h2>Reviews</h2>
+    <ul>
+        {{#reviews}}
+            <li>Rating: {{rating}}, Comment: {{comment}}</li>
+        {{/reviews}}
+    </ul>
+</body>
+</html>
